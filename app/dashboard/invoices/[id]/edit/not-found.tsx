@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaceFrownIcon } from '@heroicons/react/24/outline';
- import { Metadata } from 'next';
+
+import { Metadata } from 'next';
 
 //Adding Metadata
 export const metadata: Metadata = {
@@ -19,7 +20,8 @@ export default function NotFound() {
         className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400"
       >
         Go Back
-      </Link>
+      </Link>Add commentMore actions
     </main>
   );
 }
+
