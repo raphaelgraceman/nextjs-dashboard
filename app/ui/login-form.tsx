@@ -6,6 +6,13 @@ import {
 } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
+import { Metadata } from 'next';
+
+//Adding Metadata
+export const metadata: Metadata = {
+  title: 'Login',
+}
+
 
 export default function LoginForm() {
   return (
